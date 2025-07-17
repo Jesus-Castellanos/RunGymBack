@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE8E8298-CFF7-4D82-BD08-FC51AE5839F6}|RunGym.csproj|c:\\users\\caste\\source\\repos\\rungym\\rungymback\\codigo\\directory.packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CE8E8298-CFF7-4D82-BD08-FC51AE5839F6}|RunGym.csproj|solutionrelative:directory.packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE8E8298-CFF7-4D82-BD08-FC51AE5839F6}|RunGym.csproj|c:\\users\\caste\\source\\repos\\rungym\\rungymback\\codigo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CE8E8298-CFF7-4D82-BD08-FC51AE5839F6}|RunGym.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-17T22:53:40.379Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -34,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-17T22:40:10.709Z",
               "EditorCaption": ""
