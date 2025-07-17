@@ -86,8 +86,6 @@ namespace RunGym.Run
             modelBuilder.Entity<PasosEjercicio>().Property(u => u.NumeroPaso).HasColumnName("NumeroPaso");
             modelBuilder.Entity<PasosEjercicio>().Property(u => u.DescripcionPaso).HasColumnName("DescripcionPaso");
 
-
-
             modelBuilder.Entity<TipoDieta>().ToTable("TipoDieta");
             modelBuilder.Entity<TipoDieta>().HasKey(t => t.Id);
             modelBuilder.Entity<TipoDieta>().Property(t => t.Nombre).HasColumnName("Nombre");
@@ -105,8 +103,6 @@ namespace RunGym.Run
                 .HasOne(d => d.TipoDieta)
                 .WithMany(td => td.Dieta)
                 .HasForeignKey(d => d.TipoDietaId);
-
-
 
             modelBuilder.Entity<ErroresReportados>().ToTable("ErroresReportados");
             modelBuilder.Entity<ErroresReportados>().HasKey(u => u.Id);

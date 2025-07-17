@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\RunGym.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\RunGym.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\RunGym.csproj",
+        "projectName": "RunGym",
+        "projectPath": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\RunGym.csproj",
+        "packagesPath": "C:\\Users\\caste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caste\\source\\repos\\RunGym\\RunGymBack\\Codigo\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "CentralPackageTransitivePinningEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1507"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.74.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Identity.Client.Extensions.Msal": {
+              "target": "Package",
+              "version": "[4.74.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "BCrypt": "1.0.0",
+            "BCrypt.Net-Next": "4.0.3",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.7",
+            "Microsoft.Bcl.AsyncInterfaces": "9.0.7",
+            "Microsoft.Data.SqlClient": "6.0.2",
+            "Microsoft.EntityFrameworkCore": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Abstractions": "9.0.7",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
+            "Microsoft.Identity.Client": "4.74.0",
+            "Microsoft.Identity.Client.Extensions.Msal": "4.74.0",
+            "Newtonsoft.Json": "13.0.3",
+            "Swashbuckle.AspNetCore": "9.0.3",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Text.Encodings.Web": "9.0.7",
+            "System.Text.Json": "9.0.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
