@@ -8,6 +8,7 @@ namespace RunGym.Models
     public class Dieta
     {
         [Key]
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Desayuno { get; set; }
