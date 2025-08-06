@@ -7,7 +7,6 @@ namespace RunGym.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class DetallesEjerciciosController : ControllerBase
     {
         private readonly IDetallesEjercicio _detallesEjercicios;
