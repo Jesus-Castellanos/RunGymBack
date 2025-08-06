@@ -19,5 +19,4 @@ namespace RunGym.Models
         // Relación con Ejercicio
         public virtual Ejercicios Ejercicio { get; set; }
     }
-
 }
