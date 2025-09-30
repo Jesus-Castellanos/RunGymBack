@@ -51,7 +51,6 @@ CREATE TABLE Ejercicios(
     ImagenURL NVARCHAR(255),
 );
 
-
 CREATE TABLE DetallesEjercicio(
     Id INT PRIMARY KEY IDENTITY ,
     EjercicioId INT,

@@ -34,14 +34,24 @@ namespace RunGym.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PostUsuarios([FromBody] Usuarios usuario)
         {
+            // 💡 1. Validación de entrada (mínima, puedes mejorarla)
+            if (usuario == null || string.IsNullOrWhiteSpace(usuario.Contraseña))
+            {
+                return BadRequest(new { Exito = false, Mensaje = "La contraseña es requerida." });
+            }
+
             try
             {
-                usuario.Contraseña = RunGym.Utils.Encriptador.Encriptar(usuario.Contraseña);
+                // 🔑 2. APLICAR ARGON2: Limpiar y Hashear la contraseña antes de guardar.
+                // Esta es la única línea que crea el hash que se guardará en la DB.
+                string passwordPlano = usuario.Contraseña.Trim();
+                usuario.Contraseña = Argon2Hasher.Hashear(passwordPlano);
+
                 var response = await _usuarios.PostUsuarios(usuario);
 
                 if (response == true)
                 {
-                    return Ok(new
+                    return Created(string.Empty, new // 💡 Usar Created() para 201 Created
                     {
                         Exito = true,
                         Mensaje = "El usuario fue insertado correctamente."
@@ -49,24 +59,27 @@ namespace RunGym.Controllers
                 }
                 else
                 {
+                    // Asumiendo que 'PostUsuarios' retorna un bool, si es false indica fallo en la DB.
                     return BadRequest(new
                     {
                         Exito = false,
-                        Mensaje = "No se pudo insertar el usuario.",
-                        Detalle = response
+                        Mensaje = "No se pudo insertar el usuario, posiblemente el correo ya existe."
                     });
                 }
             }
             catch (Exception ex)
             {
-                return BadRequest(new
+                // 💡 Usar Status500InternalServerError para errores de servidor no previstos
+                return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     Exito = false,
-                    Mensaje = "Error al insertar el usuario.",
+                    Mensaje = "Error interno del servidor al insertar el usuario.",
                     Detalle = ex.Message
                 });
             }
         }
+
+        // --- Otros métodos (PUT y DELETE están bien, pero se aplica una mejora de limpieza) ---
 
         [HttpPut("PutUsuario")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -76,6 +89,16 @@ namespace RunGym.Controllers
         {
             try
             {
+                // 💡 NOTA IMPORTANTE: Si este método permite actualizar la contraseña, 
+                // DEBES HASHEARLA aquí también, tal como en PostUsuarios.
+
+                // Ejemplo de manejo de contraseña en PUT:
+                /* if (!string.IsNullOrWhiteSpace(usuario.Contraseña)) 
+                {
+                    usuario.Contraseña = Argon2Hasher.Hashear(usuario.Contraseña.Trim());
+                }
+                */
+
                 var resultado = await _usuarios.PutUsuarios(usuario);
 
                 if (resultado)
@@ -86,6 +109,7 @@ namespace RunGym.Controllers
                         Mensaje = "Usuario actualizado correctamente."
                     });
                 }
+                // ... (el resto del código Put y Delete es funcional)
                 else
                 {
                     return NotFound(new

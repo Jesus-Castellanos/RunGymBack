@@ -7,18 +7,20 @@
   <ItemGroup>
     <PackageVersion Include="BCrypt" Version="1.0.0" />
     <PackageVersion Include="BCrypt.Net-Next" Version="4.0.3" />
-    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
-    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.8" />
-    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.0.2" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.8" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
-    <PackageVersion Include="Microsoft.Identity.Client" Version="4.74.1" />
-    <PackageVersion Include="Microsoft.Identity.Client.Extensions.Msal" Version="4.74.1" />
-    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageVersion Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <PackageVersion Include="Isopoh.Cryptography.Argon2" Version="2.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.Identity.Client" Version="4.77.1" />
+    <PackageVersion Include="Microsoft.Identity.Client.Extensions.Msal" Version="4.77.1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="9.0.5" />
     <PackageVersion Include="System.Data.SqlClient" Version="4.9.0" />
-    <PackageVersion Include="System.Text.Encodings.Web" Version="9.0.8" />
-    <PackageVersion Include="System.Text.Json" Version="9.0.8" />
+    <PackageVersion Include="System.Text.Encodings.Web" Version="9.0.9" />
+    <PackageVersion Include="System.Text.Json" Version="9.0.9" />
   </ItemGroup>
 </Project>

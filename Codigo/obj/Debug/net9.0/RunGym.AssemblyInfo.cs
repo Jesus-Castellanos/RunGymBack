@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b4969877-03f1-4f45-86fe-68818cd31990")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fa81c0bdc2a09e4bfa7b5234064649c5e42e014")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9acd37694c951d1168a5c3d9620d4f485c660ade")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
