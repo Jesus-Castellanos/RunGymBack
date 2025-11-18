@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13ba17fc51e41134ecf1afd4972dc8d360bc84fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dc29c17e07d4eb7e38691feaec6906cb5778d1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunGym")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
