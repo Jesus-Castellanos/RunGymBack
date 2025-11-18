@@ -28,11 +28,6 @@ namespace RunGym.Controllers
 
             _usuariosRepository = usuariosRepository;
             _emailService = emailService;
-
-
-
-
-
         }
 
         [HttpPost("Login")]
