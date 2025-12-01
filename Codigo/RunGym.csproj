@@ -25,7 +25,5 @@
     <PackageReference Include="Newtonsoft.Json" />
     <PackageReference Include="Swashbuckle.AspNetCore" />
     <PackageReference Include="System.Data.SqlClient" />
-    <PackageReference Include="System.Text.Encodings.Web" />
-    <PackageReference Include="System.Text.Json" />
   </ItemGroup>
 </Project>
